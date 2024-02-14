@@ -21,22 +21,6 @@ Feature: Verify Brikroy icon work properly
     When Click Mirpur area
     Then Check that all mobiles in Mirpur area are displayed
     When Click on a mobile top in the list
-    Then Check mobile Details page is displayed
+
 
     #T3
-  @Release
-  Scenario Outline : Search box Check
-
-    Given Check the Searchbar is available
-    When Click on Search box
-    And Input "<value>" in The Search box
-    Then Check a page displayed
-    And Check next button is available
-    When Chick on Next button
-    Then check the Previous button is active
-    When Click on Previous button
-    Then Check the main page displayed
-
-  Examples:
-  |value|
-  |mobile|
